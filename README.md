@@ -5,7 +5,7 @@
 The Arduino DCMotor library provides a simple and modular way to manage a DC motor connected to an Arduino board using the **L293D** motor driver.
 
 
-![Circuit Diagram](./extras/eps32.png)
+![Circuit Diagram](./extras/esp32.png)
 
 
 ## Installation
