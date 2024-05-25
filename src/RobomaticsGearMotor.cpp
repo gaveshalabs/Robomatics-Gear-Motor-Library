@@ -14,11 +14,14 @@ RobomaticsGearMotor::RobomaticsGearMotor(uint8_t pin1, uint8_t pin2) {
 
 
   //set the motor PWM frequency to 100Hz
-  analogWriteFrequency(100);
+  analogWriteFrequency(200);
 
   pinMode(this->pin1, OUTPUT);
   pinMode(this->pin2, OUTPUT);
-  this->speed(0);
+  
+
+  analogWrite(this->pin1, MAX_PWM_DUTY);
+  analogWrite(this->pin2, MAX_PWM_DUTY);
 }
 
 

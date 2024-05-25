@@ -50,7 +50,7 @@ RobomaticsGearMotor motor = RobomaticsGearMotor(signalDp, singnalDn);
 void setup() {
 
   Serial.begin(9600);
-  Serial.println("Robomatics Gear Motor Example - driver both side");
+  Serial.println("Robomatics Gear Motor Example - change drive mode");
 }
 
 
@@ -58,7 +58,7 @@ void loop() {
 
   //set driver-lock mode
   motor.fineControlMode(true);   
-  Serial.println("Enabling driver-lock mode")         
+  Serial.println("Enabling driver-lock mode");         
   delay(1000);
 
   // let's speed up motor to postive direction starting from 0 and 
@@ -73,7 +73,7 @@ void loop() {
  
   //set driver-coast mode
   motor.fineControlMode(false);   
-  Serial.println("Enabling driver-Coast mode")         
+  Serial.println("Enabling driver-Coast mode");         
   delay(1000);
 
   // let's speed up motor to postive direction starting from 0 and

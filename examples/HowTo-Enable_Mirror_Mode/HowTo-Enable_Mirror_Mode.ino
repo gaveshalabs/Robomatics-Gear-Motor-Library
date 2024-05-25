@@ -69,7 +69,7 @@ void setup() {
   motorB.mirror(true);        //this will change the direction of motorB
 
   Serial.begin(9600);
-  Serial.println("Robomatics Gear Motor Example - driver both side");
+  Serial.println("Robomatics Gear Motor Example - mirror motor operation");
 }
 
 
@@ -84,7 +84,8 @@ void loop() {
 
   // now let's slow down both motor speed to 0 from postive direction 
   for (int i = 255 ; i >= 0; i--){
-    motor.speed(i);
+    motorA.speed(i);
+    motorB.speed(i);
     delay(10);
   }
 
