@@ -9,6 +9,9 @@ The **Gavesha® Robomatics Gear Motor Element** is a compact TT gear motor with 
 This document aims to help you get started with the Arduino IDE quickly. If you're interested in learning how to use this element with MicroPython, please refer to the [Gavesha Project](https://app.gavesha.space/lesson?id=8Q9yLTXVwleDdeubpUNn).
 
 
+You can check schematics diagrams [here.](https://github.com/gaveshalabs/HW-Robomatics-Gear-Motor)
+
+
 ## Installing the Library on Arduino
 
 1. **Download the Library:**
