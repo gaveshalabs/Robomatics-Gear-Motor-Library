@@ -4,9 +4,9 @@
 Hello Explorers! It's time to build super fun robots!
 
 
-The **Gavesha® Robomatics Gear Motor Element** is a compact TT gear motor with an inbuilt motor driver and USB Type-C connector, designed to help beginners quickly build a variety of moving objects without hassle. This element is compatible with the Gavesha Console, ESP32, Arduino UNO, Mega, and NodeMCU boards. To learn more about Robomatics Gear Motor Element hardware you can refer the [data sheet]();
+The **Gavesha® Robomatics Gear Motor Element** is a compact TT gear motor with an inbuilt motor driver and USB Type-C connector, designed to help beginners quickly build a variety of moving objects without hassle. This element is compatible with the Gavesha Console, ESP32, Arduino UNO, Mega, and NodeMCU boards. To learn more about Robomatics Gear Motor Element hardware you can refer the [data sheet](https://drive.google.com/file/d/14rxRRS_ALYlHMCaU1q9OvN5yCySvRpoB/view?usp=share_link);
 
-This document aims to help you get started with the Arduino IDE quickly. If you're interested in learning how to use this element with MicroPython, please refer to the [Gavesha Project]().
+This document aims to help you get started with the Arduino IDE quickly. If you're interested in learning how to use this element with MicroPython, please refer to the [Gavesha Project](https://app.gavesha.space/lesson?id=8Q9yLTXVwleDdeubpUNn).
 
 
 ## Installing the Library on Arduino

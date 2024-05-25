@@ -14,7 +14,7 @@
     By Ushan Chaminda
     
     Download the datasheet and wiring diagram from this link
-    http://datasheet
+    https://drive.google.com/file/d/14rxRRS_ALYlHMCaU1q9OvN5yCySvRpoB/view?usp=share_link
 
 */
 
