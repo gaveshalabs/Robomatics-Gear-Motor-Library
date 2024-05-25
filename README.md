@@ -35,9 +35,9 @@ The diagram below shows how to connect the Robomatics Gear Motor Element to an E
 
 This library uses PWM to drive the motor. Therefore, you need to select PWM pins to make the device function properly. Luckily, the ESP32 has 16 PWM pins. The table below shows them. Pick any two of them and connect the `D+` and `D-` from the motor.
 
-| PWM Pins |
-|----------|
-| 2, 4, 12-19, 21-23, 25-27, 32-33 |
+| Board	|PWM Pins |
+|-------|---------|
+| ESP32	| 2, 4, 12-19, 21-23, 25-27, 32-33 |
 
 ### 2. Connecting to Arduino Uno
 
