@@ -13,8 +13,9 @@ RobomaticsGearMotor::RobomaticsGearMotor(uint8_t pin1, uint8_t pin2) {
   this->fineControlEnable = true; 
 
 
-  //set the motor PWM frequency to 100Hz
-  analogWriteFrequency(200);
+  #if defined(ARDUINO_ARCH_ESP32)
+  analogWriteFrequency(200);		//set the motor PWM frequency to 100Hz for ESP32
+  #endif
 
   pinMode(this->pin1, OUTPUT);
   pinMode(this->pin2, OUTPUT);
