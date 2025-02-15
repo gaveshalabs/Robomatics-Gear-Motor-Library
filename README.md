@@ -72,8 +72,8 @@ To create a motor object, you need to include the `RobomaticsGearMotor` library 
 #include <RobomaticsGearMotor.h>
 
 // Select PWM pins
-int pin1 3;
-int pin2 5;
+int pin1 = 3;
+int pin2 = 5;
 
 // Create a motor object with pin1 and pin2
 RobomaticsGearMotor motor(pin1, pin2);
